@@ -1,0 +1,26 @@
+.swing {
+    animation: swing ease-in-out 2s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+}
+.swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+}
+.swing:after{
+    width: 20px; height: 20px;  
+    border: 1px solid #999;
+    top: -10px; left: 50%;
+    transform: rotate(45deg);
+}
+/* nail */
+.swing:before{
+    width: 5px; height: 5px;
+    top: -14px;left: 54%;
+    border-radius: 50% 50%;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(6deg); }
+    100% { transform: rotate(-6deg); }
+}
