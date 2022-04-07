@@ -44,7 +44,7 @@ const Channels = props => {
                     </Link>
                 </div>
                 <div className="transition-all rounded-lg cursor-pointer flex justify-center items-center hover:bg-[#36393f] p-2">
-                    <Link href="https://ethy56.vercel.app/">
+                    <Link href="https://ethy.vercel.app/">
                         <Image className="brightness-[-100%]" src="https://cdn.discordapp.com/attachments/809184246072606751/961346707407392819/unknown.png" alt="github" width={25} height={25} />
                     </Link>
                 </div>
