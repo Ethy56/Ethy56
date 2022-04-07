@@ -5,14 +5,14 @@ const CurrentlyWorkingOn = props => {
     return (
         <div className="w-full h-full flex flex-col justify-center items-center gap-12 select-none">
             <div className="flex flex-row justify-center items-center">
-                <Image class={styles.swing} src="https://cdn.discordapp.com/attachments/809184246072606751/961434922910892112/breadieswing.png" width={200} height={200} />
+                <Image class={styles.swing} alt="logo" src="https://cdn.discordapp.com/attachments/809184246072606751/961434922910892112/breadieswing.png" width={200} height={200} />
                 <h1 className="text-sky-500 text-4xl">Currently Working On</h1>
             </div>
             <ul className="text-sky-500 text-lg">
                 <li>
                     <h1 className="font-bold">This site</h1>
                     <h1>
-                        &emsp;&emsp;This site doesn't have a name yet but this will be open source to the public on my github.
+                        &emsp;&emsp;This site doesn{"'"}t have a name yet but this will be open source to the public on my github.
                     </h1>
                 </li>
                 <li>
