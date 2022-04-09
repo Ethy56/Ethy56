@@ -18,7 +18,7 @@ const Items = props => {
     }
     return (
         <div className="w-full h-full bg-inherit flex flex-col items-center py-2 gap-2 select-none">
-            <div className={"cursor-pointer pb-1 transition ease-in-out flex justify-center items-center " + (id == "" ? "rounded-2xl bg-[#5865f2]" : "rounded-full hover:rounded-2xl bg-[#36393f] hover:bg-[#5865f2]") + " w-[2.5vw] h-[5vh]"}>
+            <div className={"cursor-pointer pb-1 transition ease-in-out flex justify-center items-center " + (id == "" || id == "ethy" ? "rounded-2xl bg-[#5865f2]" : "rounded-full hover:rounded-2xl bg-[#36393f] hover:bg-[#5865f2]") + " w-[2.5vw] h-[5vh]"}>
                 <Link href="/">
                     <Image src="https://cdn.discordapp.com/attachments/809184246072606751/961327730438307950/whitebread.png" width={40} height={40} />
                 </Link>
